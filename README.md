@@ -16,6 +16,21 @@ This is the code used in the final report of WOA7015 (Advanced Machine Learning)
 
 ## How to Run Code
 
+It is preferable to run the IPYNB file first, since our original code is there. However, if for some limitations you cannot run the IPYNB file, you can also run the Python files.
+
+### IPYNB File
+
+#### Terminal
+
+Execute this command: `jupyter execute Code.ipynb`
+
+#### Jupyter Lab
+
+1. Start Jupyter lab.
+2. Open `Code.ipynb` file from Jupyter lab.
+3. If asked, pick the Python kernel.
+
+
 ### Python Files
 
 #### Training
@@ -40,15 +55,3 @@ Run these commands in sequence:
 4. `python3 11_resnet18_bert_closed_ended_questions.py`
 5. `python3 12_resnet18_bert_open_ended_questions.py`
 6. `python3 13_resnet18_bert_sample_100_questions.py`
-
-### IPYNB File
-
-#### Terminal
-
-Execute this command: `jupyter execute Code.ipynb`
-
-#### Jupyter Lab
-
-1. Start Jupyter lab.
-2. Open `Code.ipynb` file from Jupyter lab.
-3. If asked, pick the Python kernel.
