@@ -1,0 +1,11 @@
+datasets==4.4.2
+evaluate==0.4.6
+nltk==3.9.2
+jupyterlab==4.5.1
+numpy
+torch
+torchvision
+transformers
+huggingface_hub
+matplotlib
+PyQt6
